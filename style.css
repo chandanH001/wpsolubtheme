@@ -1,0 +1,120 @@
+/*
+Theme Name: Solub
+Theme URI: https://wordpress.org/themes/solub/
+Author: cd
+Author URI: https://wordpress.org
+Description: Solub emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Requires at least: 6.7
+Tested up to: 6.7
+Requires PHP: 7.2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: solub
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+.tp-footer-widget .menu-main-menu-container ul li a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(245, 245, 250, 0.65);
+    transition: all 0.3s ease;
+
+    
+}
+
+.tp-footer-widget ul li a:hover {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.tp-footer-widget ul li {
+
+list-style: none !important;
+margin-bottom:10px;
+}
+
+
+.tp-footer-widget ul li:last-child {
+margin-bottom:0px;
+}
+
+/* Footer Widget 4 icon Color */
+
+.solub-contact-info-widget i {
+	color: #ff7029;
+}
+
+.solub-contact-info-widget .contact-item a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(245, 245, 250, 0.65);
+    transition: all 0.3s ease;
+
+    
+}
+
+.solub-contact-info-widget .contact-item a:hover {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.solub-contact-info-widget .contact-item {
+
+list-style: none !important;
+margin-bottom:10px;
+}
+
+
+.solub-contact-info-widget .contact-item:last-child {
+margin-bottom:0px;
+}
+
+/* Blog Sidebar Post  */
+
+.tp-recent-post-thumb img {
+	border-radius: 6px;
+	overflow: hidden;
+	transition: all 0.3s 0s ease-out;
+	width: 90px;
+	height: 90px;
+}
+
+/* Blog Sidebar Categories */
+
+.tp-sidebar-widget.widget_categories ul {
+	padding: 40px 35px;
+	border-radius: 10px;
+	background: #EBF3ED;
+}
+.tp-sidebar-widget.widget_categories ul li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+.tp-sidebar-widget.widget_categories ul li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: var(--tp-text-body);
+  background-color: var(--tp-common-white);
+  box-shadow: 0px 1px 3px 0px rgba(32, 33, 36, 0.08);
+
+}
+
+.tp-sidebar-widget.widget_categories ul li a {
+  padding: 20px;
+  display: block;
+}
+.tp-sidebar-widget.widget_categories ul li a:hover {
+  color: var(--tp-heading-primary);
+  box-shadow: 0px 10px 20px 0px #D8EBDD;
+}
+.tp-sidebar-widget.widget_categories ul li a::after {
+  content: '\f061';
+  font-family: Font Awesome 6 pro ;
+}
