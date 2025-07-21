@@ -116,5 +116,7 @@ margin-bottom:0px;
 }
 .tp-sidebar-widget.widget_categories ul li a:after {
   content: '\f061';
-  font-family: Font Awesome 6 Pro;
+  font-family: "Font Awesome 6 Pro";
+  float: right;
+  
 }
