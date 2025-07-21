@@ -128,7 +128,7 @@ function solub_theme_scripts()
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', [], '5.2.3', 'all');
     wp_enqueue_style('swiperbundle', get_template_directory_uri() . '/assets/css/swiper-bundle.css', [], '8.2.2', 'all');
     wp_enqueue_style('magnificpopup', get_template_directory_uri() . '/assets/css/magnific-popup.css', [], '8.2.2', 'all');
-    wp_enqueue_style('fontawesomepro', get_template_directory_uri() . '/assets/css/font-awesome-pro.css', [], '8.2.2', 'all');
+    wp_enqueue_style('fontawesomepro', get_template_directory_uri() . '/assets/css/font-awesome-pro.css', [], '6.0', 'all');
     wp_enqueue_style('spacing', get_template_directory_uri() . '/assets/css/spacing.css', [], '8.2.2', 'all');
     wp_enqueue_style('animate', get_template_directory_uri() . '/assets/css/animate.css', [], '8.2.2', 'all');
     wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css', [], '8.2.2', 'all');
