@@ -1,6 +1,5 @@
 <?php
     $opening_hours             = get_theme_mod('solub_opening_hours');
-    $header_logo               = get_theme_mod('logo_upload', '');
     $settings                  = get_theme_mod('social_info');
     $button_phone              = get_theme_mod('phone_number');
     $topbar_switch             = get_theme_mod('topbar_switch', 'off');
@@ -9,6 +8,22 @@
     $solub_right_header_empty = ($solub_header_right_switch == 'on') ? 'justify-content-between' : 'justify-content-end';
     get_template_part('/template-parts/header/offcanvas');
 
+    // logo function
+    function headerLogo()
+    {
+        $header_logo = get_theme_mod('logo_upload', '');
+
+    ?>
+<a href="<?php echo home_url() ?>">
+    <img data-width="130" src="<?php
+
+                                       printf(esc_html__('%s', 'solub'), $header_logo);
+
+                                   ?>" alt="<?php echo bloginfo() ?>">
+</a>
+
+<?php
+    }
 ?>
 
 <!-- header area start -->
@@ -53,13 +68,9 @@
         <div class="container container-1320">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="tp-header-logo">
-                    <a href="<?php site_url()?>">
-                        <img data-width="130" src="<?php
 
-                                                       printf(esc_html__('%s', 'solub'), $header_logo);
+                    <?php headerLogo()?>
 
-                                                   ?>" alt="">
-                    </a>
                 </div>
                 <div class="tp-header-box d-flex align-items-center
                     <?php echo esc_attr($solub_right_header_empty) ?>">
