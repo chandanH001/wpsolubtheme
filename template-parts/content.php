@@ -1,6 +1,5 @@
 <?php if (is_single()): ?>
 
-
 <div class="postbox-details-wrapper">
     <div class="postbox-details-thumb mb-30">
         <?php the_post_thumbnail()?>
@@ -13,14 +12,13 @@
         <?php the_content(); ?>
     </div>
     <div class="postbox-details tagcloud mb-50">
-        <span>Tags:</span>
+        <span><?php echo esc_html('Tags:') ?></span>
         <?php solub_tags(); ?>
     </div>
 
 </div>
-
-
 <?php else: ?>
+
 <article id="post-<?php the_ID(); ?>"<?php post_class('tp-postbox-item mb-75'); ?>>
 
     <div class="tp-postbox-thumb p-relative">

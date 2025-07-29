@@ -154,7 +154,7 @@
     }
         } else {
         ?>
-<i><?php echo esc_html__('No tags found', 'exdos'); ?></i>
+<i><?php echo esc_html__('No tags found', 'solub'); ?></i>
 <?php
     }
     }
