@@ -256,7 +256,16 @@ new \Kirki\Section(
     [
         'title'       => esc_html__('Footer', 'solub'),
         'description' => esc_html__('Footer Info', 'solub'),
-        'panel'       => 'solub_footer',
+        'panel'       => 'solub_options',
         'priority'    => 160,
+    ]
+);
+new \Kirki\Field\Text(
+    [
+        'settings' => 'copyright_footer',
+        'label'    => esc_html__('CopyRight Text', 'solub'),
+        'section'  => 'solub_footer',
+        'default'  => esc_html__('Copyright © 2024 All Rights Reserved. ', 'solub'),
+        'priority' => 10,
     ]
 );

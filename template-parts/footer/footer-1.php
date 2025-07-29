@@ -1,4 +1,7 @@
-<?php $settings = get_theme_mod('social_info'); ?>
+<?php $settings = get_theme_mod('social_info');
+    $copyright      = get_theme_mod('copyright_footer', 'default');
+
+?>
 
 <!-- footer area start -->
 <footer class="tp-footer-ptb p-relative pt-90" data-bg-color="#1F2220">
@@ -30,7 +33,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="tp-footer-copyright">
-                        <p>Copyright © 2024 <span>Solub.</span> All Rights Reserved.</p>
+
+                        <?php echo solub_kses($copyright) ?>
+                        <!-- <p>Copyright © 2024 <span>Solub.</span> All Rights Reserved.</p> -->
                     </div>
 
                 </div>
