@@ -45,7 +45,7 @@
                                 <path
                                     d="M8 3.8V8L10.8 9.4M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z"
                                     stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>                                   <?php echo esc_html($opening_hours) ?></span>
+                            </svg> <?php echo esc_html($opening_hours) ?></span>
                     </div>
                     <?php endif?>
 
@@ -120,7 +120,7 @@
                             </a>
                         </div>
                         <?php endif?>
-<?php endif?>
+                        <?php endif?>
 
                         <div class="tp-header-2-hamburger d-xl-none offcanvas-open-btn">
                             <button class="hamburger-btn">
