@@ -14,10 +14,7 @@
     </div>
     <div class="postbox-details tagcloud mb-50">
         <span>Tags:</span>
-        <a href="#">Envato</a>
-        <a href="#">Development</a>
-        <a href="#">Technology</a>
-        <a href="#">Wordpress</a>
+        <?php solub_tags(); ?>
     </div>
 
 </div>
