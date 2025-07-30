@@ -10,6 +10,8 @@
                     <?php endwhile;else: ?>
                     <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p>
                     <?php endif; ?>
+                    <?php get_template_part('/template-parts/biography', get_post_format())?>
+
 
                 </div>
             </div>
