@@ -164,7 +164,7 @@ function solub_theme_scripts()
 add_action('wp_enqueue_scripts', 'solub_theme_scripts');
 
 // Include breadcrumb functionality for the theme.
-include_once 'inc/beadcrumb.php';
+include_once 'inc/breadcrumb.php';
 include_once 'inc/template-function.php';
 include_once 'inc/nav-walker.php';
 include_once 'inc/widget.php';
