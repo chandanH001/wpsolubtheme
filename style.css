@@ -15,84 +15,86 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 
 .tp-footer-widget .menu-main-menu-container ul li a {
-    position: relative;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(245, 245, 250, 0.65);
-    transition: all 0.3s ease;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(245, 245, 250, 0.65);
+  transition: all 0.3s ease;
 
-    
+
 }
 
 .tp-footer-widget ul li a:hover {
-    color: #ffffff;
-    letter-spacing: 0.5px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
 }
 
 .tp-footer-widget ul li {
 
-list-style: none !important;
-margin-bottom:10px;
+  list-style: none !important;
+  margin-bottom: 10px;
 }
 
 
 .tp-footer-widget ul li:last-child {
-margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 /* Footer Widget 4 icon Color */
 
 .solub-contact-info-widget i {
-	color: #ff7029;
+  color: #ff7029;
 }
 
 .solub-contact-info-widget .contact-item a {
-    position: relative;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(245, 245, 250, 0.65);
-    transition: all 0.3s ease;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(245, 245, 250, 0.65);
+  transition: all 0.3s ease;
 
-    
+
 }
 
 .solub-contact-info-widget .contact-item a:hover {
-    color: #ffffff;
-    letter-spacing: 0.5px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
 }
 
 .solub-contact-info-widget .contact-item {
 
-list-style: none !important;
-margin-bottom:10px;
+  list-style: none !important;
+  margin-bottom: 10px;
 }
 
 
 .solub-contact-info-widget .contact-item:last-child {
-margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 /* Blog Sidebar Post  */
 
 .tp-recent-post-thumb img {
-	border-radius: 6px;
-	overflow: hidden;
-	transition: all 0.3s 0s ease-out;
-	width: 90px;
-	height: 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.3s 0s ease-out;
+  width: 90px;
+  height: 90px;
 }
 
 /* Blog Sidebar Categories */
 
 .tp-sidebar-widget.widget_categories ul {
-	padding: 40px 35px;
-	border-radius: 10px;
-	background: #EBF3ED;
+  padding: 40px 35px;
+  border-radius: 10px;
+  background: #EBF3ED;
 }
+
 .tp-sidebar-widget.widget_categories ul li:not(:last-of-type) {
   margin-bottom: 8px;
 }
-.tp-sidebar-widget.widget_categories ul li{
+
+.tp-sidebar-widget.widget_categories ul li {
   list-style: none;
   font-size: 16px;
   font-weight: 500;
@@ -110,14 +112,26 @@ margin-bottom:0px;
   padding: 20px;
   display: block;
 }
+
 .tp-sidebar-widget.widget_categories ul li a:hover {
   color: var(--tp-heading-primary);
   box-shadow: 0px 10px 20px 0px #D8EBDD;
 }
+
 .tp-sidebar-widget.widget_categories ul li a:after {
   content: '\f061';
   font-family: "Font Awesome 6 Pro";
   float: right;
-  
+
 }
 
+.postbox__comment .children {
+  margin-left: 150px;
+}
+
+.postbox__comment .children li {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  list-style: none;
+  border-bottom: 1px solid rgba(31, 34, 32, 0.15);
+}
