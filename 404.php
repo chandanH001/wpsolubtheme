@@ -16,7 +16,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="tp-error-thumb text-center">
-                    <img src=<?php echo get_template_directory_uri()?>/assets/img/others/error.png alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/assets/img/others/error.png" alt="">
                 </div>
             </div>
         </div>
