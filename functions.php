@@ -35,6 +35,16 @@ if (! function_exists('solub_setup')):
 // Remove widget block editor
         remove_theme_support('widgets-block-editor');
 
+//Woocommerce Support
+
+    add_theme_support( 'woocommerce' );
+
+    // Optional: Enable WooCommerce product gallery features
+    // add_theme_support( 'wc-product-gallery-zoom' );
+    // add_theme_support( 'wc-product-gallery-lightbox' );
+    // add_theme_support( 'wc-product-gallery-slider' );
+
+
 /*
 * Enable support for Post Thumbnails on posts and pages.
 *
