@@ -48,6 +48,32 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
 
+?>
+
+<div class="tp-shop-top">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="tp-shop-top-left mb-25 mt-10">
+                <?php woocommerce_result_count();?>
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="tp-product-top-select d-flex justify-content-end mb-30">
+                <div class="tp-select p-relative">
+
+                    <?php woocommerce_catalog_ordering();?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php
+
+	
 	woocommerce_product_loop_start();
 
 	if ( wc_get_loop_prop( 'total' ) ) {

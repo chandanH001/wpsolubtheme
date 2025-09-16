@@ -179,6 +179,7 @@ include_once 'inc/template-function.php';
 include_once 'inc/nav-walker.php';
 include_once 'inc/widget.php';
 include_once 'inc/solub_resent_post_sidebar.php';
+include_once 'inc/sloub-woo.php';
 // include_once 'inc/solub-kirki.php';
 if (class_exists('Kirki')) {
     include_once get_template_directory() . '/inc/solub-kirki.php';

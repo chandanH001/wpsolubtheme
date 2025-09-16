@@ -21,8 +21,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<p class="woocommerce-result-count" role="alert" aria-relevant="all" <?php echo ( empty( $orderedby ) || 1 === intval( $total ) ) ? '' : 'data-is-sorted-by="true"'; ?>>
-	<?php
+<p class="woocommerce-result-count mb-0" role="alert" aria-relevant="all"
+    <?php echo ( empty( $orderedby ) || 1 === intval( $total ) ) ? '' : 'data-is-sorted-by="true"'; ?>>
+    <?php
 	// phpcs:disable WordPress.Security
 	if ( 1 === intval( $total ) ) {
 		_e( 'Showing the single result', 'woocommerce' );
